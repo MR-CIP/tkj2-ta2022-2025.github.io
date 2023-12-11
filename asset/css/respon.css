@@ -1,0 +1,73 @@
+@media screen and (max-width: 767px) {
+    .text-navbar {
+        margin-left: 10px;
+    }
+
+    .navbar {
+        margin-right: 10px;
+    }
+
+    .menu {
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        position: absolute;
+        top: 40px;
+        right: 0;
+        background-color: #333;
+        width: 100%;
+        padding: 10px 0;
+        margin: 0;
+        transition: all 0.3s ease-in;
+    }
+
+    .menu.show {
+        display: flex;
+    }
+
+    .menu li {
+        margin-left: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .hamburger-menu {
+        display: block;
+        cursor: pointer;
+    }
+
+    .scrolled .main-navbar {
+        height: auto;
+    }
+
+    .main-page,
+    .struktur,
+    .denah-kelas,
+    .jadwal-kelas {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .scroll-down-btn-page-1,
+    .scroll-down-btn {
+        padding-top: 50px;
+    }
+
+    .main-page,
+    .struktur,
+    .denah-kelas,
+    .jadwal-kelas {
+        padding-top: 100px;
+        text-align: left;
+    }
+
+    .struktur,
+    .denah-kelas,
+    .jadwal-kelas {
+        height: auto;
+        min-height: auto;
+    }
+}
